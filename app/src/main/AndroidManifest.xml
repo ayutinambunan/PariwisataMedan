@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PariwisataMedan"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiWIsataMedan"
+        tools:targetApi="31">
+        <activity
+            android:name=".TamanBuayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KulinerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TamanEdukasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BukitSimarjarunjungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViharaSiuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReligiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RahmatInternationalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KalimantungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MuseumBatakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PemandianSodaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerkebunanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MasjidRayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MasjidOsmaniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RujakKolamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MieAcehTitiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KesawanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UcokDurianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KawahPutihActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GrahaMariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpibActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HkbpSudirmanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdukasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BikaAmbonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlamActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

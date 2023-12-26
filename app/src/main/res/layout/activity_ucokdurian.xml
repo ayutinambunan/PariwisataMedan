@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".UcokDurianActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ucokdurianimgview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/kedaidurianucok" />
+
+        <Button
+            android:id="@+id/btn_ucokdurian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Kedai Ucok Durian"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#093B51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Alamat: Jalan K.H Wahid Hasyim No 68, Medan Baru"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/deskripsiDurian"
+            android:layout_width="wrap_content"
+            android:layout_height="371dp"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Kalau kamu pecinta durian, maka kamu wajib mampir ke kuliner legendaris di Medan yang satu ini, yaitu Ucok Durian. Sudah bukan rahasia lagi jika durian Medan sangat berkualitas dan memiliki cita rasa yang manis dengan daging yang tebal.  Kedai Ucok Durian ini memang menjadi salah satu destinasi wisata kuliner wajib bagi wisatawan saat berlibur ke Medan. Bahkan, Presiden Joko Widodo pun pernah berkunjung kesini bersama keluarganya. Tak hanya bisa kamu nikmati di tempat, Durian Ucok ini juga bisa kamu jadikan oleh-oleh untuk keluarga di rumah."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack16"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+
+        <Button
+            android:id="@+id/buttonDashboard16"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+    </LinearLayout>
+
+</RelativeLayout>

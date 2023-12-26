@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grahamaria"
+    android:orientation="vertical"
+    tools:context=".ReligiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5191D1E"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/bevan"
+            android:lineSpacingExtra="0sp"
+            android:text="WISATA RELIGI  MEDAN"
+            android:textAlignment="center"
+            android:textColor="#FEFFFE"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF"
+            android:scrollbarSize="10dp" />
+
+        <Button
+            android:id="@+id/btn_hkbp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Gereja HKBP Sudirman"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_graha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Graha Maria Annai Velangkani"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_masjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Masjid Raya"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_vihara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Vihara Siu San Keng"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_gpib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="GPIB Immanuel"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/tn_masjidosmani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Masjid Al-Osmani"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/btn_back2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:backgroundTint="#03A9F4" />
+
+    </LinearLayout>
+
+</RelativeLayout>

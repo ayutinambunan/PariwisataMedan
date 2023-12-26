@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daftarWisataAlam">
+        <item>Bukit Gundaling</item>
+        <item>Pulau Mursala</item>
+        <item>Air Terjun Dua Warna</item>
+    </string-array>
+</resources>

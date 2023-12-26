@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".MuseumBatakActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/museumbatakimgview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/museum"
+            tools:srcCompat="@drawable/museum" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Museum Batak TB Silalahi"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#093B51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Alamat: Jl. Pagar Batu No. 88, Desa Silalahi, Kecamatan Balige, Kabupaten Toba Samosir"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Museum ini merupakan Museum Jejak Langkah dan Sejarah T. B. Silalahi. Museum Jejak Langkah dan Sejarah T. B. Silalahi disebut juga sebagai ruang motivasi. Museum ini berisi koleksi pribadi T. B. Silalahi yang berupa pakaian dinas, bintang jasa, tanda kehormatan, kendaraan pribadi dan dinas, jenis senjata yang pernah digunakan oleh T. B. Silalahi, dan kenang-kenangan dari penjuru dunia yang diberikan kepada Bapak T. B. Silalahi.  Di dalam ruangan ini terdapat panel-panel yang menceritakan sejarah hidup perjalanan T. B. Silalahi serta perjalanan kariernya. Selain itu di ruangan ini juga terdapat Benda-Benda Pribadi dia seperti seragam dan pangkat-pangkat ketika di kemiliteran, beberapa ijazah, pakaian ketika menteri, bangku sekolah waktu di SR, mobil dinas yang dulu digunakan ketika menjabat sebagai Menpan pada Kabinet Pembangunan VI, dan lain sebagainya. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack8"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+
+        <Button
+            android:id="@+id/buttonDashboard8"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".BukitSimarjarunjungActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/airterjunimgview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/airterjunduawarna" />
+
+        <Button
+            android:id="@+id/btn_simarjarunjung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Bukit Indah Simarjarunjung"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#093B51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Lokasi: Jl. Simarjarunjung, Butu Bayu Pane Raja, Dolok Pardamean, Simalungun, Sumatera Utara"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/deskripsibukit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Bukit Indah Simarjarunjung adalah salah satu destinasi wisata yang terletak di Kabupaten Simalungun, Sumatera Utara. Bukit ini menjadi salah satu tempat yang sangat populer di kalangan wisatawan, karena menyajikan pemandangan alam yang indah serta udara yang sejuk."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Bukit Indah Simarjarunjung berada di ketinggian sekitar 1.200 meter di atas permukaan laut dan terletak di antara Danau Toba dan Samosir. Jaraknya sekitar 50 kilometer dari kota Medan dan dapat ditempuh dengan waktu perjalanan sekitar 2 jam."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+
+        <Button
+            android:id="@+id/buttonDashboard2"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+    </LinearLayout>
+
+</RelativeLayout>

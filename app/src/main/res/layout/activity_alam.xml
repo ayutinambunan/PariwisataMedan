@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgalam"
+    android:orientation="vertical"
+    tools:context=".AlamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80D5E6EA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/bevan"
+            android:lineSpacingExtra="0sp"
+            android:text="WISATA ALAM  MEDAN"
+            android:textAlignment="center"
+            android:textColor="#09370C"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#0B3911"
+            android:scrollbarSize="10dp" />
+
+        <Button
+            android:id="@+id/btn_terjun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Air Terjun Dua Warna"
+            android:textColor="#0A4312"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_bukit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Bukit Indah Simarjarunjung"
+            android:textColor="#0A4312"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_kawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Kawah Putih Dolok Tinggi Raja"
+            android:textColor="#0A4312"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_soda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Pemandian Air Soda"
+            android:textColor="#0A4312"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_kalimantung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Pulau Kalimantung"
+            android:textColor="#0A4312"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:backgroundTint="#266490" />
+    </LinearLayout>
+
+</LinearLayout>

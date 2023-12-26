@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".KalimantungActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="910dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/kalimantungimgview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/kalimantung" />
+
+        <Button
+            android:id="@+id/btn_kalimantung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Pulau Kalimantung"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#093B51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Lokasi: Tapian Nauli I, Kec. Tapian Nauli, Kabupaten Tapanuli Tengah, Sumatera Utara"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/deskripsikalimantung"
+            android:layout_width="wrap_content"
+            android:layout_height="357dp"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Pulau Kalimantung adalah sebuah pulau kecil yang terletak di kawasan Pulau Mursala, sebelah barat Pulau Sumatera. Pulau ini menawarkan keindahan alam yang masih asri dan belum banyak terjamah manusia.  Luas Pulau Kalimantung sekitar 40 hektare dan terdiri dari beberapa bukit dan pantai yang indah. Di pulau ini, Sobat Torch bisa menikmati berbagai keindahan alam seperti pantai yang eksotis dengan pasir putih yang lembut, air laut yang jernih, serta terumbu karang yang masih dalam kondisi baik. Pulau ini juga dikelilingi oleh hutan tropis yang lebat dan menyuguhkan udara yang sejuk dan segar.   "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack5"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+
+        <Button
+            android:id="@+id/buttonDashboard5"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+    </LinearLayout>
+
+</RelativeLayout>

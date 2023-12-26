@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/alata</item>
+        <item>@font/alex_brush</item>
+        <item>@font/autour_one</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bevan</item>
+        <item>@font/cookie</item>
+        <item>@font/offside</item>
+        <item>@font/sonsie_one</item>
+        <item>@font/yellowtail</item>
+    </array>
+</resources>

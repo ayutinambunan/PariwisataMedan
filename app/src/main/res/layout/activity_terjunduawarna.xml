@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".TerjunDuaWarnaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/airterjunimgview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/airterjunduawarna" />
+
+        <Button
+            android:id="@+id/btnairterjun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Air Terjun Dua Warna"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#093B51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Lokasi: Bandar Baru, Sibolangit, Deli Serdang, Sumatra Utara, Indonesia"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Air Terjun Dua Warna memiliki ketinggian 75 meter dan berada pada ketinggian 1.475 meter di atas permukaan laut. Lokasi air terjun berada di kaki Gunung Sibayak. Disebut Air Terjun Dua Warna karena air terjun ini sangat indah dan memiliki gradasi dua warna yang berbeda. Air terjun yang turun dari sela-sela bukit berwarna putih, sedangkan air yang berada di telaga di bawahnya berwarna biru muda."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_View1"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            android:text="Air terjun yang berwarna biru muda dengan suhu air dingin, sedangkan air putih abu-abu memiliki suhu hangat. Perbedaan ini tidak terlepas dari proses terbentuknya air terjun."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+
+        <Button
+            android:id="@+id/buttonDashboard"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#093B51"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:backgroundTint="#093B51" />
+    </LinearLayout>
+
+</RelativeLayout>
